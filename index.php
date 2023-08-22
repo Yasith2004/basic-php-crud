@@ -17,7 +17,7 @@
                 <a href="#" class="btn btn-success btn-block">Retrieve</a>
             </div>
             <div class="col">
-                <a href="src/pages/updateUser.html" target="_blank" class="btn btn-warning btn-block">Update</a>
+                <a href="src/pages/updateAge.html" target="_blank" class="btn btn-warning btn-block">Update</a>
             </div>
             <div class="col">
                 <a href="src/pages/deleteUser.html" target="_blank" class="btn btn-danger btn-block">Delete</a>
