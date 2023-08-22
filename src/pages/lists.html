@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Lists
+    </title>
+    <style>
+        .list-item{
+            font-family:'Times New Roman', Times, serif;
+            font-size: larger;
+            font-weight: 600;
+        }
+        
+        #ame{
+            color:blueviolet;
+            font-style: italic;
+        }
+
+        .fruits{
+            border:2px;
+            border-color: blueviolet;
+            border-radius: 15px;
+            padding-top:25px;
+            padding-bottom:25px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin: 10px;
+            border-style: dotted;
+        }
+    </style>
+</head>
+<body>
+    <!-- Odered LIst -->
+    <ol class="fruits">
+        <li class="list-item">Apple</li>
+        <ol type="A" start="3">
+            <li class="list-item" id="ame">Amrerican</li>
+            <ol type="i">
+                <li class="list-item">Red</li>
+                <li class="list-item">Green</li>
+            </ol>
+            <li>Australian</li>
+            <li>Indian</li>
+        </ol>
+        <li>Mango</li>
+        <li>Papaya</li>
+    </ol>
+    <hr>
+    <!-- Undordered list -->
+    <ul>
+        <li>Cars</li>
+        <ul type="square">
+            <li>Toyota</li>
+            <li>Audi</li>
+            <ul type="circle">
+                <li>A4</li>
+                <li>A6</li>
+            </ul>
+        </ul>
+        <li>Bikes</li>
+        <li>Aeroplanes</li>
+        <ul>
+            <li>Boeing</li>
+            <li>Airbus</li>
+            <ul>
+                <li>A320</li>
+                <li>A330</li>
+            </ul>
+        </ul>
+    </ul>
+    <hr>
+    <!-- Definition List  -->
+    <dl>
+        <dt>LBW</dt>
+        <dd>Leg Before Wicket</dd>
+    </dl>
+    <dl>
+        <dt>APT</dt>
+        <dd>Advanced Persistent Threat</dd>
+    </dl>
+</body>
+</html>
