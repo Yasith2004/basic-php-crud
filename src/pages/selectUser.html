@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title> Retrive Data</title>
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body style="width: 80%; margin: auto;">
+    <h1 style="text-align: center; margin-top: 5px; margin-bottom: 15px;">Students Enrolled for a Course</h1>
+    <form name="get-data" method="post" action="../components/getData.php">
+        <div class="form-group">
+            <label for="select-course">Select course</label>
+            <select name="select-course" id="select1" class="form-control form-control-lg">
+                <option value="Spanish" selected>Spanish</option>
+                <option value="German">German</option>
+                <option value="French">French</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="submit" name="submit" id="btn1" class="btn btn-primary btn-block" >Submit!</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
