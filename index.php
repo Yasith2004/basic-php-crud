@@ -14,7 +14,7 @@
                 <a href="src/pages/createUser.html" target="_blank" class="btn btn-primary btn-block">Create</a>
             </div>
             <div class="col">
-                <a href="#" class="btn btn-success btn-block">Retrieve</a>
+                <a href="src/pages/selectUser.html" target="_blank" class="btn btn-success btn-block">Retrieve</a>
             </div>
             <div class="col">
                 <a href="src/pages/updateAge.html" target="_blank" class="btn btn-warning btn-block">Update</a>
